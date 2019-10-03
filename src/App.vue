@@ -19,7 +19,9 @@ export default {
 };
 </script>
 <style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 *{
+  font-family: 'Playfair Display', serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
