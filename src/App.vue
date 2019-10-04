@@ -2,13 +2,13 @@
   <div id="app">
     <Header />
     <AddTodo />
-    <TodoRows />
+    <Todos />
   </div>
 </template>
 
 <script>
 import AddTodo from './components/AddTodo';
-import TodoRows from './components/Todo.rows';
+import Todos from './components/Todos';
 import Header from './components/layout/Header';
 
 
@@ -17,7 +17,7 @@ export default {
   components: {
     Header,
     AddTodo,
-    TodoRows
+    Todos
   }
 };
 </script>
